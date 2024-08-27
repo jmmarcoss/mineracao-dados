@@ -1,1 +1,0 @@
-# mineracao-dados
