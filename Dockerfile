@@ -8,7 +8,7 @@ RUN pip install --no-cache-dir jupyter
 FROM python:3.12.5-slim-bookworm
 
 WORKDIR /app
-COPY --from=build /usr/local/lib/python3.12/site-packages /usr/local/lib/python3.11/site-packages
+COPY --from=build /usr/local/lib/python3.12/site-packages /usr/local/lib/python3.12/site-packages
 COPY --from=build /usr/local/bin/ /usr/local/bin/
 
 EXPOSE 8888
