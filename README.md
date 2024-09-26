@@ -1,6 +1,6 @@
 # Mineração de Dados - IFPB Campus Campina Grande
 
-Este repositório contém os arquivos `.ipynb` utilizados nas atividades da disciplina optativa de Mineração de Dados do IFPB Campus Campina Grande. Cada arquivo representa uma aula, exercício ou experimento desenvolvido ao longo do curso.
+Este repositório contém os arquivos `.ipynb` utilizados nas atividades da disciplina optativa de Mineração de Dados do IFPB Campus Campina Grande, período 2024.1. Cada arquivo representa uma aula, exercício ou experimento desenvolvido ao longo do curso.
 
 ### Estrutura do repositório
 
@@ -22,12 +22,12 @@ cd mineracao-dados
 
 2. Build da imagem `Docker`
 ```shell
-docker build -t meu-jupyter .
+docker build -t mineracao .
 ```
 
 3. Iniciar container
 ```shell
-docker run -p 8888:8888 -v $(pwd):/app meu-jupyter
+docker run -p 8888:8888 -v $(pwd):/app mineracao
 ```
 
 ### Sobre a Disciplina
